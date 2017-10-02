@@ -5,10 +5,10 @@ var NASA_API_URL = "https://api.nasa.gov/planetary/apod?api_key=" + NASA_key;
 var promises = [];
 var imageArr = [];
 
-function setBackground(imgsrc) {
-	$("#iodModal").modal('hide');
-	$(".main").css('background-image', 'url('+imgsrc+')');
-}
+// function setBackground(imgsrc) {
+// 	$("#iodModal").modal('hide');
+// 	$(".main").css('background-image', 'url('+imgsrc+')');
+// }
 
 function autoRotateIOD() {
 	imageInterval = setInterval(rotateBackground, 10000);

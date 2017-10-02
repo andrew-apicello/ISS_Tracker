@@ -3,7 +3,7 @@
 	transition: background 1.5s ease,
 				padding 0.8s linear;
 	background-size: 100%;
-	background-image: url('');
+	background-image: url('https://www.nasa.gov/sites/default/files/images/635945main_iss030e177670_full.jpg');
 }
 
 .translucent-elm {

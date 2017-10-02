@@ -36,10 +36,10 @@ var WEATHERJS = {
 						
 			if(closest.weather[0].main === 'Clear'){
 				//console.log("Show clear icon");
-				$("#pt_" + this.key + " td:nth-child(3)").text("CLEAR SKIES");
+				$("#pt_" + this.key + " td:nth-child(3)").text("Clear Skies");
 			} else {
 				//console.log("Hide clear icon");
-				$("#pt_" + this.key + " td:nth-child(3)").text("NOT CLEAR SKIES");
+				$("#pt_" + this.key + " td:nth-child(3)").text("Cloudy");
 			}
 
 			//write closest to table row
